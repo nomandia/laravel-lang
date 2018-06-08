@@ -1,11 +1,6 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Administrator
- * Date: 2018/6/7
- * Time: 14:24
- */
-namespace Minng\LaravelLang\Commands;
+
+namespace Nomandia\LaravelLang\Commands;
 
 use  Illuminate\Console\Command;
 use Symfony\Component\Process\Process;

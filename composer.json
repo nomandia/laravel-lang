@@ -1,5 +1,5 @@
 {
-    "name": "minngyue/laravel-lang",
+    "name": "nomandia/laravel-lang",
     "description": "languages for Laravel 5",
     "keywords":[
         "laravel",
@@ -7,22 +7,22 @@
     ],
     "autoload":{
         "psr-4":{
-	        "Minng\\LaravelLang\\":"src"
+	        "Nomandia\\LaravelLang\\":"src"
         }
     },
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "minngyue",
-            "email": "zmyjgyx@163.com"
+            "name": "nomandia",
+            "email": "nomandia@qq.com"
         }
     ],
     "require": {},
     "extra":{
     	"laravel":{
 	     "providers":[
-	     	"Minng\\LaravelLang\\TranslationServiceProvider"
+	     	"Nomandia\\LaravelLang\\TranslationServiceProvider"
 	     ]
 	}
     },

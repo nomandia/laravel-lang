@@ -5,10 +5,10 @@
  * Date: 2018/6/7
  * Time: 15:14
  */
-namespace Minng\LaravelLang;
+namespace Nomandia\LaravelLang;
 
 use Illuminate\Translation\TranslationServiceProvider as LaravelTranslationServiceProvider;
-use Minng\LaravelLang\Commands\Publish as PublishCommand;
+use Nomandia\LaravelLang\Commands\Publish as PublishCommand;
 
 class TranslationServiceProvider extends LaravelTranslationServiceProvider
 {
