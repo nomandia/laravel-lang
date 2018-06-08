@@ -1,0 +1,30 @@
+{
+    "name": "minngyue/laravel-lang",
+    "description": "languages for Laravel 5",
+    "keywords":[
+        "laravel",
+        "languages"
+    ],
+    "autoload":{
+        "psr-4":{
+	        "Minng\\LaravelLang\\":"src"
+        }
+    },
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "minngyue",
+            "email": "zmyjgyx@163.com"
+        }
+    ],
+    "require": {},
+    "extra":{
+    	"laravel":{
+	     "providers":[
+	     	"Minng\\LaravelLang\\TranslationServiceProvider"
+	     ]
+	}
+    },
+    "minimum-stability":"dev"
+}
